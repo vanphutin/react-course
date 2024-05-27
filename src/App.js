@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
-import FullName from "./Component/FullName";
+import PropsParent from "./Components/Prop/PropsParent";
 
-function App() {
-  return <FullName></FullName>;
-}
+const App = () => {
+  return <PropsParent></PropsParent>;
+};
 
 export default App;
