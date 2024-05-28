@@ -22,10 +22,11 @@ const PropsParent = (props) => {
   };
 
   const handleAlter = () => {
-    alert(`name: ${name} - value: ${count}`);
+    alert(`name: ${name} - age: ${count}`);
   };
   return (
     <div>
+      <h1>props</h1>
       <button onClick={handleGiam}>Giam </button>
       <span>{count}</span>
       <button onClick={handleTang}>Tăng</button>
@@ -34,8 +35,16 @@ const PropsParent = (props) => {
       <input type="text" value={name} onChange={handleChange} />
       <button onClick={handleSubmit}>Submit</button>
 
-      {/* Truyền props */}
-      <PropsChild name={name} count={count} handleAlter={handleAlter} />
+      {/* Truyền props - props children */}
+      <PropsChild name={name} count={count} handleAlter={handleAlter}>
+        {" "}
+        <h2>
+          | props children |Lorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Suscipit asperiores quidem blanditiis maxime sed, amet cum minus
+          at fugit aperiam qui, laboriosam obcaecati animi architecto
+          voluptatem. Quaerat impedit ratione magni.
+        </h2>
+      </PropsChild>
     </div>
   );
 };

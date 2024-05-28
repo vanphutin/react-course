@@ -1,0 +1,26 @@
+.toggle-container {
+  width: 150px;
+  height: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+  .toggle {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    border-radius: 50px;
+    width: 120px;
+
+    .spinner {
+      border: 1px solid;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      margin: 2px 0;
+      //   transform: translateX(5px);
+      background-color: white;
+      &.active {
+        background-color: blue;
+        transform: translateX(75px);
+      }
+    }
+  }
+}
