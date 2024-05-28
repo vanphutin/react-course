@@ -22,6 +22,7 @@ const Game = () => {
   };
   return (
     <div>
+      <h2>GAME</h2>
       <Board cells={board} onClick={handleClick} />
       <h2>{win ? `Winner is ${win}` : ""}</h2>
       <button onClick={handleResetGame}>Reset game</button>

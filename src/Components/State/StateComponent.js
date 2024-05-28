@@ -9,6 +9,7 @@ const StateComponent = () => {
     <div>
       <hr />
       <h1>State</h1>
+      <code>const [state, setState] = useState(initialState);</code>
       <Toggle />
       <div>
         <Stateless />
