@@ -16,6 +16,7 @@ import FetchingData from "./Components/Advanced/hoc/FetchingData";
 import Header from "./Components/Home/Header";
 import Advanced from "./Components/Advanced/Advanced";
 import Memo from "./Components/useMemo/Memo";
+import Effect from "./Components/Effect/Effect";
 
 // import PropsParent from "./Components/Prop/PropsParent";
 
@@ -33,6 +34,9 @@ const App = () => {
 
       <Routes>
         <Route path="/state" element={<StateComponent />} />
+      </Routes>
+      <Routes>
+        <Route path="/effect" element={<Effect />} />
       </Routes>
 
       <Routes>
