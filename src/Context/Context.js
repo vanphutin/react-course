@@ -12,7 +12,7 @@ const Context = () => {
         <h1>uesContext</h1>
         <Display />
 
-        <h3 className="">GalleryProvider</h3>
+        <h3 className="">GalleryProvider ||</h3>
         <InforCart />
         <PhotoList />
         <CartList />
