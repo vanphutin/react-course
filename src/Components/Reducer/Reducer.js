@@ -13,11 +13,15 @@ const Reducer = () => {
       là một hook dùng để quản lý state phức tạp hơn so với useState. Nó thường
       được sử dụng khi state của bạn có nhiều logic cập nhật hoặc khi state phụ
       thuộc vào các giá trị trước đó. useReducer cung cấp một cách tiếp cận
-      tương tự như reducer trong Redux. Cách sử dụng useReducer useReducer nhận
-      vào hai đối số chính: Một hàm reducer (reducer function) xác định cách
-      state được cập nhật. Giá trị khởi tạo của state. Nó trả về một mảng với
-      hai phần tử: State hiện tại. Hàm dispatch để gửi action nhằm cập nhật
-      state.
+      tương tự như reducer trong Redux.
+      <br />
+      <h5>Cách sử dụng useReducer :</h5>
+      <span>
+        useReducer nhận vào hai đối số chính: Một hàm reducer (reducer function)
+        xác định cách state được cập nhật. Giá trị khởi tạo của state. Nó trả về
+        một mảng với hai phần tử: State hiện tại. Hàm dispatch để gửi action
+        nhằm cập nhật state.
+      </span>
       <Count />
       {/* <TodoApp /> */}
       <TodoAppReducer />
