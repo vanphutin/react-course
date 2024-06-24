@@ -39,10 +39,13 @@ const PropsParent = (props) => {
       <PropsChild name={name} count={count} handleAlter={handleAlter}>
         {" "}
         <h2>
-          | props children |Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Suscipit asperiores quidem blanditiis maxime sed, amet cum minus
-          at fugit aperiam qui, laboriosam obcaecati animi architecto
-          voluptatem. Quaerat impedit ratione magni.
+          <div> | props children |</div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            asperiores quidem blanditiis maxime sed, amet cum minus at fugit
+            aperiam qui, laboriosam obcaecati animi architecto voluptatem.
+            Quaerat impedit ratione magni.
+          </p>
         </h2>
       </PropsChild>
     </div>
