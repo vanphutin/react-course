@@ -3,9 +3,6 @@ import useHover from "../../hooks/useHover";
 
 const CustomHook = () => {
   const { hover, nodeRef } = useHover();
-  //   const hoverStyle = {
-  //     color: "blue",
-  //   };
   return (
     <div>
       <hr />
@@ -13,7 +10,7 @@ const CustomHook = () => {
       <p
         style={{
           padding: "10px 20px",
-          backgroundColor: hover ? "gray" : "red",
+          backgroundColor: hover ? "gray" : "yellow",
           width: "300px",
         }}
         className="text-blue-500 bg-gray-200 p-4"
