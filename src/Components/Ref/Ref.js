@@ -22,7 +22,7 @@ const Ref = () => {
       <hr />
       <h1>useRef</h1>
       <button onClick={handler} ref={initRef} className="btn btn-danger">
-        click me
+        click me !
       </button>
 
       <TextTarea />
