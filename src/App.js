@@ -14,6 +14,8 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import FetchingData from "./Components/Advanced/hoc/FetchingData";
 import Header from "./Components/Home/Header";
+import Advanced from "./Components/Advanced/Advanced";
+import Memo from "./Components/useMemo/Memo";
 
 // import PropsParent from "./Components/Prop/PropsParent";
 
@@ -56,7 +58,10 @@ const App = () => {
         <Route path="/context" element={<Context />} />
       </Routes>
       <Routes>
-        <Route path="/advanced" element={<FetchingData />} />
+        <Route path="/advanced" element={<Advanced />} />
+      </Routes>
+      <Routes>
+        <Route path="/useMemo" element={<Memo />} />
       </Routes>
     </div>
   );

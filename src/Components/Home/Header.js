@@ -29,6 +29,8 @@ const Header = () => {
               <Link to="/ref">Ref</Link>
               <Link to="/context">Context</Link>
               <Link to="/advanced">Advanced</Link>
+              <Link to="/useMemo">useMemo</Link>
+              <Link to="/useCallBack">useCallBack</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
